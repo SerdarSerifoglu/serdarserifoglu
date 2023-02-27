@@ -1,0 +1,32 @@
+.body {
+  background-color: white;
+  display: grid;
+  grid-template-columns: minmax(320px, 1080px) 360px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "main sidemenu" "main sidemenu";
+}
+.main {
+  background-color: rgb(143, 251, 54);
+  grid-area: main;
+}
+.sidemenu {
+  background-color: aqua;
+  grid-area: sidemenu;
+}
+.topbar {
+  background-color: antiquewhite;
+  display: none;
+  grid-area: top;
+}
+
+@media (max-width: 1080px) {
+  .body {
+    grid-template-areas: "top top" "main main";
+  }
+  .sidemenu {
+    display: none;
+  }
+  .topbar {
+    display: block;
+  }
+}
