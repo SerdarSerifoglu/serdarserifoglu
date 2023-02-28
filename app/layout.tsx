@@ -25,6 +25,7 @@ export default function RootLayout({
           <TopBar />
         </div>
         <main className={styles.main}>{children}</main>
+        <div className={styles.vline}></div>
         <div className={styles.sidemenu}>Side</div>
       </body>
     </html>

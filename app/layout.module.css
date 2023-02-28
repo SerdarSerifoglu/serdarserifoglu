@@ -1,17 +1,23 @@
 .body {
   background-color: white;
   display: grid;
-  grid-template-columns: minmax(320px, 1080px) 360px;
+  grid-template-columns: minmax(320px, 1080px) 1px 360px;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "main sidemenu" "main sidemenu";
+  grid-template-areas: "main line sidemenu" "main line sidemenu";
 }
 .main {
   background-color: rgb(143, 251, 54);
   grid-area: main;
 }
+.vline {
+  width: 1px;
+  border: 1px solid var(--main-orange);
+  grid-area: line;
+}
 .sidemenu {
   background-color: aqua;
   grid-area: sidemenu;
+  min-height: 100vh;
 }
 .topbar {
   background-color: antiquewhite;
@@ -21,9 +27,11 @@
 
 @media (max-width: 1080px) {
   .body {
+    grid-template-columns: minmax(320px, 1080px) 360px;
     grid-template-areas: "top top" "main main";
   }
-  .sidemenu {
+  .sidemenu,
+  .vline {
     display: none;
   }
   .topbar {
