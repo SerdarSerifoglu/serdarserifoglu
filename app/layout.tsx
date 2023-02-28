@@ -1,10 +1,11 @@
 import "./globals.css";
 import styles from "./layout.module.css";
 import { Noto_Sans } from "next/font/google";
+import TopBar from "@/components/TopBar/TopBar";
 
 const notoSans = Noto_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "600"],
+  weight: ["300", "400", "600", "700"],
 });
 
 export const metadata = {
@@ -20,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body className={`${styles.body} ${notoSans.className}`}>
-        <div className={styles.topbar}>TOP</div>
+        <div className={styles.topbar}>
+          <TopBar />
+        </div>
         <main className={styles.main}>{children}</main>
         <div className={styles.sidemenu}>Side</div>
       </body>

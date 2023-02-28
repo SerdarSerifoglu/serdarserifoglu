@@ -1,3 +1,7 @@
+:root {
+  --main-dark-grey: #aeaeae;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

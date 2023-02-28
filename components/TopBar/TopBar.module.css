@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.menuicon {
+  display: grid;
+  place-content: center;
+
+  color: var(--main-dark-grey);
+  border: 1px solid var(--main-dark-grey);
+  border-radius: 3px;
+  padding: 7px;
+}
