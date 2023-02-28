@@ -2,6 +2,7 @@ import "./globals.css";
 import styles from "./layout.module.css";
 import { Noto_Sans } from "next/font/google";
 import TopBar from "@/components/TopBar/TopBar";
+import SideBar from "@/components/SideBar/SideBar";
 
 const notoSans = Noto_Sans({
   subsets: ["latin"],
@@ -26,7 +27,9 @@ export default function RootLayout({
         </div>
         <main className={styles.main}>{children}</main>
         <div className={styles.vline}></div>
-        <div className={styles.sidemenu}>Side</div>
+        <div className={styles.sidemenu}>
+          <SideBar />
+        </div>
       </body>
     </html>
   );

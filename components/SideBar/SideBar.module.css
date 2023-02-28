@@ -1,0 +1,29 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+.title {
+  height: 300px;
+  background-color: blueviolet;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.name {
+  font-weight: 700;
+  color: var(--main-orange);
+}
+
+.jobtitle {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.icons {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
