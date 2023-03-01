@@ -24,7 +24,7 @@
   border-top: 0.5rem solid transparent;
   border-bottom: 0.5rem solid transparent;
 
-  border-left: 0.5rem solid black;
+  border-left: 0.5rem solid var(--main-dark-grey);
 }
 
 .menu-item__value {
