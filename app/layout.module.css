@@ -1,7 +1,7 @@
 .body {
   background-color: white;
   display: grid;
-  grid-template-columns: minmax(320px, 1080px) 1px 360px;
+  grid-template-columns: minmax(320px, 1078px) 2px 22rem;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "main line sidemenu" "main line sidemenu";
 }
@@ -15,12 +15,10 @@
   grid-area: line;
 }
 .sidemenu {
-  background-color: aqua;
   grid-area: sidemenu;
   min-height: 100vh;
 }
 .topbar {
-  background-color: antiquewhite;
   display: none;
   grid-area: top;
 }

@@ -5,8 +5,7 @@
 }
 
 .title {
-  height: 300px;
-  background-color: blueviolet;
+  height: 13rem;
   display: grid;
   place-content: center;
   text-align: center;
@@ -23,7 +22,14 @@
 }
 
 .icons {
-  width: 300px;
+  width: 20rem;
   display: flex;
   justify-content: space-evenly;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
 }

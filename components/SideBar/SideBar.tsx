@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Menu from "../Menu/Menu";
 import styles from "./SideBar.module.css";
 
 export default function SideBar() {
@@ -25,7 +26,9 @@ export default function SideBar() {
           />
         </div>
       </div>
-      <div className={styles.menu}>SideMenu</div>
+      <div className={styles.menu}>
+        <Menu />
+      </div>
     </div>
   );
 }
