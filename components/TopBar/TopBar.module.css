@@ -12,6 +12,14 @@
   font-size: 1rem;
   font-weight: 700;
 }
+.title:hover {
+  cursor: pointer;
+}
+
+.title > a {
+  text-decoration: none;
+  color: black;
+}
 
 .menuicon {
   display: grid;
@@ -21,4 +29,8 @@
   border: 1px solid var(--main-dark-grey);
   border-radius: 3px;
   padding: 7px;
+}
+
+.menuicon:hover {
+  cursor: pointer;
 }

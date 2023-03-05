@@ -46,3 +46,9 @@
 .link.active .menu-item__arrow {
   border-left: 0.5rem solid var(--main-orange);
 }
+
+@media (max-width: 1080px) {
+  .menu-item {
+    height: 3rem;
+  }
+}
