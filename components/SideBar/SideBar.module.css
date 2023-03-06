@@ -16,9 +16,14 @@
   color: var(--main-orange);
 }
 
+.link {
+  text-decoration: none;
+}
+
 .jobtitle {
   font-size: 1rem;
   font-weight: 700;
+  color: black;
 }
 
 .icons {
