@@ -26,7 +26,7 @@
 @media (max-width: 1080px) {
   .body {
     grid-template-columns: minmax(320px, 100vw) 360px;
-    grid-template-rows: minmax(60px, min-content) 1fr;
+    grid-template-rows: minmax(60px, min-content) minmax(90vh, 1fr);
     grid-template-areas: "top top" "main main";
   }
   .sidemenu,
