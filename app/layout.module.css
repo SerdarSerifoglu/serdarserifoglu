@@ -6,8 +6,8 @@
   grid-template-areas: "main line sidemenu" "main line sidemenu";
 }
 .main {
-  background-color: rgb(143, 251, 54);
   grid-area: main;
+  padding: 3rem;
 }
 .vline {
   width: 1px;
@@ -25,7 +25,8 @@
 
 @media (max-width: 1080px) {
   .body {
-    grid-template-columns: minmax(320px, 1080px) 360px;
+    grid-template-columns: minmax(320px, 100vw) 360px;
+    grid-template-rows: minmax(60px, min-content) 1fr;
     grid-template-areas: "top top" "main main";
   }
   .sidemenu,
@@ -34,5 +35,9 @@
   }
   .topbar {
     display: block;
+  }
+  .main {
+    max-width: 100vw;
+    padding: 1.5rem;
   }
 }

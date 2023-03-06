@@ -34,7 +34,7 @@ export default function TopBar() {
           />
         </div>
       </div>
-      <div onClick={clickMenuArea} style={customStyleForMenu}>
+      <div className="menu" onClick={clickMenuArea} style={customStyleForMenu}>
         <Menu />
       </div>
     </>

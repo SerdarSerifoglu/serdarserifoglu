@@ -34,3 +34,7 @@
 .menuicon:hover {
   cursor: pointer;
 }
+
+.menu {
+  z-index: 10;
+}
