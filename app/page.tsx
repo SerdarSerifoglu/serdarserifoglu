@@ -10,7 +10,7 @@ export default function Home() {
         <p className={styles.author}>
           Joshua Wooden{" "}
           <span className={styles.info}>
-            (Efsane basketbol antrenörü John Wooden'ın babası)
+            {`(Efsane basketbol antrenörü John Wooden'ın babası)`}
           </span>
         </p>
       </div>

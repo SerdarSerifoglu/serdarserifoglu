@@ -1,7 +1,9 @@
+import PageTitle from "@/components/PageTitle/PageTitle";
+
 export default function Page() {
   return (
     <>
-      <h1>Hakkımda</h1>
+      <PageTitle title="Hakkımda" />
       <br />
       <article>
         <p>
