@@ -22,7 +22,7 @@ export default function TopBar() {
     <>
       <div className={styles.wrapper}>
         <div className={styles.title}>
-          <Link href="/"> www.serdarserifoglu.com</Link>
+          <Link href="/"> www.SerdarSerifoglu.com</Link>
         </div>
         <div className={styles.menuicon} onClick={clickMenuIcon}>
           <Image
