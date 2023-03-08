@@ -16,15 +16,15 @@ var menuItems = [
   },
   {
     name: "Projelerim",
-    route: "/xxx",
+    route: "/projelerim",
   },
   // {
   //   name: "Okuduğum Kitaplar",
   //   route: "/xxx",
   // },
   {
-    name: "Notlarım",
-    route: "/xxx",
+    name: "Yazı ve Notlarım",
+    route: "/yazi-ve-notlarim",
   },
 ];
 
