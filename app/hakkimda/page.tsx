@@ -1,4 +1,5 @@
 import PageTitle from "@/components/PageTitle/PageTitle";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -37,8 +38,11 @@ export default function Page() {
         <p>
           Kurstan mezun olduğum Mart 2018 tarihinden bugüne yazılım sektöründe
           farklı firmalarda kah full stack developer, kah backend developer, kah
-          frontend developer olarak çalışmaktayım.(**İş deneyimlerimi detaylı
-          olarak okumak isterseniz buraya tıklayabilirsiniz.**){" "}
+          frontend developer olarak çalışmaktayım.{" "}
+          <Link href="/is-deneyimlerim">
+            İş deneyimlerimi detaylı olarak görmek isterseniz buraya
+            tıklayabilirsiniz.
+          </Link>
         </p>
         <br />
         <p>
@@ -55,10 +59,12 @@ export default function Page() {
         <br />
         <p>
           İş dışındaki vakitlerimde; öğrendiğim farklı şeyleri pekiştirmek hemde
-          kendim kullanabileceğim yan projeler geliştiriyorum (**Projelerim
-          hakkında detaylara ulaşmak için buraya tıklayabilirsiniz.** ),
-          yazılımla alakalı hazırlanmış video eğitimler izliyorum, blog yazıları
-          okuyorum. Yazılım haricindede ingilizcemi geliştirmek için
+          kendim kullanabileceğim yan projeler geliştiriyorum{" "}
+          <Link href="/projelerim">
+            Projelerim hakkında detaylara ulaşmak için buraya tıklayabilirsiniz
+          </Link>
+          , yazılımla alakalı hazırlanmış video eğitimler izliyorum, blog
+          yazıları okuyorum. Yazılım haricindede ingilizcemi geliştirmek için
           çalışıyorum. Translate yardımı olmadan okuduğum bir İngilizce metni
           tam olarak anlayabilmeyi kendime hedef olarak belirledim, umarım
           gerçekleştirebilirim.
@@ -70,8 +76,18 @@ export default function Page() {
           paylaşmaya vakit kalmayan bilgileri ve yazdığım yazılarımı
           paylaşabilmek amacıyla geliştirdim. Ömer Serdar Şerifoğlu hakkında
           kısa bir özet okudunuz. Buraya kadar okuduysanız çok teşekkür ederim.
-          Eğer bir tavsiyeniz veya sorunuz olursa serdarserifoglu@gmail.com veya
-          **Linkedin** yoluyla iletişim sağlayabilirsiniz.
+          Eğer bir tavsiyeniz veya sorunuz olursa{" "}
+          <Link href="mailto:serdarserifoglu@gmail.com">
+            serdarserifoglu@gmail.com
+          </Link>{" "}
+          veya{" "}
+          <Link
+            href="https://www.linkedin.com/in/omer-serdar-serifoglu/"
+            target="_blank"
+          >
+            LinkedIn
+          </Link>{" "}
+          yoluyla iletişim sağlayabilirsiniz.
         </p>
       </article>
     </>
