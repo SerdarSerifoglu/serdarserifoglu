@@ -8,7 +8,7 @@ export default function Page() {
       <br />
       <article>
         <p>
-          Adım Ömer Serdar Şerifoğlu. 25.08.1991 tarihinde, Şişli / İstanbul’da
+          Adım Ömer Serdar Şerifoğlu. 25.08.1991 tarihinde, Şişli/İstanbul’da
           doğmuşum. Marmara Üniversitesi İstatistik bölümünden 2014 yılında
           mezun oldum. Anadolu Üniversitesi açıköğretim olarak Yönetim Bilişim
           Sistemleri okumaktayım. İstatistik bölümünde okurken Türkiye Basketbol
@@ -37,7 +37,7 @@ export default function Page() {
         <br />
         <p>
           Kurstan mezun olduğum Mart 2018 tarihinden bugüne yazılım sektöründe
-          farklı firmalarda kah full stack developer, kah backend developer, kah
+          farklı firmalarda kâh full stack developer, kâh backend developer, kâh
           frontend developer olarak çalışmaktayım.{" "}
           <Link href="/is-deneyimlerim">
             İş deneyimlerimi detaylı olarak görmek isterseniz buraya

@@ -2,7 +2,6 @@ import InfoCard from "../InfoCard/InfoCard";
 import { workExperiences } from "@/utils/statics";
 
 export default function WorkExperiences() {
-  console.log("WorkExperiences_RUN");
   return (
     <>
       {workExperiences
@@ -10,10 +9,11 @@ export default function WorkExperiences() {
         .map((exp, index) => (
           <>
             <InfoCard
+              elementId={`test-${index}`}
               key={index}
               date={exp.date}
-              companyName={exp.companyName}
-              jobTitle={exp.jobTitle}
+              name={exp.companyName}
+              title={exp.jobTitle}
               description={exp.description}
             />
             <br />
@@ -21,5 +21,5 @@ export default function WorkExperiences() {
           </>
         ))}
     </>
-  ); //<>WORK EXPERİENCES</>;
+  );
 }
