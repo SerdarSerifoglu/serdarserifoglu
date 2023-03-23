@@ -5,6 +5,9 @@ import { metadataStandartKeywords } from "@/utils/statics";
 export async function generateMetadata({
   params,
   searchParams,
+}: {
+  params: any;
+  searchParams: any;
 }): Promise<Metadata> {
   // const product = await getData();
 
