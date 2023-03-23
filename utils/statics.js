@@ -183,3 +183,19 @@ export const myProjects = [
     `,
   },
 ];
+
+export const metadataStandartKeywords = [
+  "Software Developer",
+  "Frontend Developer",
+  "Yazılım Geliştirici",
+  "Web Developer",
+  "JavaScript",
+  "ReactJS",
+  "NextJS",
+  "NodeJS",
+  "HTML",
+  "CSS",
+  "Responsive Design",
+  "Flexbox",
+  "CSS grid",
+];

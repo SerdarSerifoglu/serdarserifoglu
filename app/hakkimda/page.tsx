@@ -1,5 +1,6 @@
 import PageTitle from "@/components/PageTitle/PageTitle";
 import Link from "next/link";
+import { metadataStandartKeywords } from "@/utils/statics";
 
 export default function Page() {
   return (
@@ -93,3 +94,11 @@ export default function Page() {
     </>
   );
 }
+
+export const metadata = {
+  title: "Hakkımda | Ömer Serdar Şerifoğlu",
+  description:
+    "Ömer Serdar Serifoğlu'nun hayatı ve kariyeri hakkında detaylı bilgi edinin. Hakkımdaki bilgilerin yazılı olduğu sayfa",
+  authors: [{ name: "Ömer Serdar Şerifoğlu" }],
+  keywords: [...metadataStandartKeywords],
+};

@@ -1,4 +1,6 @@
 import styles from "./page.module.css";
+import { metadataStandartKeywords } from "@/utils/statics";
+
 export default function Home() {
   return (
     <>
@@ -17,3 +19,11 @@ export default function Home() {
     </>
   );
 }
+
+export const metadata = {
+  title: "Ömer Serdar Şerifoğlu'nun Kişisel Web Sitesi",
+  description:
+    "Ömer Serdar Serifoğlu'nun hayatı ve kariyeri hakkında detaylı bilgi edinin. Yazılım sektöründe neler yaptığına, hangi alanlarda çalıştığına dair bilgiler edinin.",
+  keywords: [...metadataStandartKeywords],
+  authors: [{ name: "Ömer Serdar Şerifoğlu" }],
+};

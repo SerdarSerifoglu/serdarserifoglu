@@ -20,7 +20,7 @@ export default function SideBar() {
           >
             <Image
               src="/icons/mdi_linkedin.svg"
-              alt="Grip Icon"
+              alt="Linkedin Icon"
               width={32}
               height={32}
               priority
@@ -29,7 +29,7 @@ export default function SideBar() {
           <Link href="https://github.com/SerdarSerifoglu" target="_blank">
             <Image
               src="/icons/mdi_github.svg"
-              alt="Grip Icon"
+              alt="Github Icon"
               width={32}
               height={32}
               priority
