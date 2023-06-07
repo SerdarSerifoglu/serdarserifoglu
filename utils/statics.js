@@ -4,7 +4,7 @@ export const workExperiences = [
     date: "09.2022 - 12.2022",
     jobTitle: "Frontend Developer",
     companyName: "Akinon",
-    description: `<br/>Django ile geliştirilmiş olan DS Damat, Damat Tween, Bella Maison, Jumbo firmalarının e-ticaret sitelerinde geliştirme yapan ekipte Frontend Developer olarak görev aldım. Gelen talepler doğrultusunda Jinja Template üzerinde, Python, Javascript ve CSS dillerini kullanarak, SASS ve TailwindCSS kullanılmış e-ticaret sitelerinde geliştirmeler yaptım. Gelen tasarımlar Figma yada Zeplin üzerinden tarafımıza geliyordu, onlar üzerinden geliştirmeleri yapıyorduk. Çalışma şekli olarak remote çalışıyorduk.
+    description: `<br/>Python-Django ile geliştirilmiş olan DS Damat, Damat Tween, Bella Maison, Jumbo firmalarının e-ticaret sitelerinde geliştirme yapan ekipte Frontend Developer olarak görev aldım. Gelen talepler doğrultusunda Jinja Template üzerinde, Python, JavaScript ve CSS dillerini kullanarak, SASS ve TailwindCSS kullanılmış e-ticaret sitelerinde geliştirmeler yaptım. Gelen tasarımlar Figma yada Zeplin üzerinden tarafımıza geliyordu, onlar üzerinden geliştirmeleri yapıyorduk. Çalışma şekli olarak remote çalışıyorduk.
       <br/>
      <b>Bu görevimde kullandığım dil ve teknolojiler;</b>
      <br/>

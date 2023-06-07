@@ -18,8 +18,8 @@ export default function Page() {
           altyapılarda bütün yaş gruplarında çalıştım. Beykozspor, Ortaçeşmespor
           ve Paşabahçe Ahmet Ferit İnal Lisesi kulüp ve okul takımlarında
           basketbol antrenörü olarak çalıştım. Bu süreçte yüzlerce çocukla,
-          gençle ve onların aileleriyle çalışma fırsatım oldu, herbiri eşsiz
-          deneyimler elde etmemi sağladı bu süreçte temasta olduğum herkese
+          gençle ve onların aileleriyle çalışma fırsatım oldu, her biri eşsiz
+          deneyimler elde etmemi sağladı. Bu süreçte temasta olduğum herkese
           minnettarım. Basketbolu çok sevmeme rağmen maddi yetersizlikler
           sebebiyle devam etmeme kararı aldım.
         </p>
@@ -27,13 +27,13 @@ export default function Page() {
         <p>
           Askerlikten sonra Bahçeşehir Üniversitesi Wissen Akademie’de İŞKUR
           destekli 6 aylık, tam zamanlı bir yazılım eğitimi programına katılma
-          fırsatı buldum. Yazılımla bu eğitimde tanıştım diyebilirim. Sadece bir
-          bilgisayar ve akıl ile bir şeyler üretebilmek çok hoşuma gitti.
-          Derslerin dışındada kendimi geliştirmeye yeni şeyler öğrenmeye devam
-          ettim. Kurstaki harika hocalarıma, beni yazılımla tanıştırdıkları ve
-          kurs bittikten sonra dahi, ilk iş tecrübelerimde, yapamayacakmışım
-          gibi hissettiğim günlerde bile desteklerini esirgemedikleri için
-          şükran borçluyum.
+          fırsatı buldum. Yazılımla bu eğitimde tanıştım diyebilirim. Birşeyler
+          üretebilmek için sadece bir bilgisayarın yeterli olması çok hoşuma
+          gitti. Derslerin dışındada kendimi geliştirmeye yeni şeyler öğrenmeye
+          devam ettim. Kurstaki harika hocalarıma, beni yazılımla
+          tanıştırdıkları ve kurs bittikten sonra dahi, ilk iş tecrübelerimde,
+          yapamayacakmışım gibi hissettiğim günlerde bile desteklerini
+          esirgemedikleri için şükran borçluyum.
         </p>
         <br />
         <p>
@@ -48,23 +48,23 @@ export default function Page() {
         <br />
         <p>
           Kariyerime Frontend Developer olarak devam etmek istiyorum. Geçmiş
-          tecrübelerimden sonra uygulamalarda Frontend alanının benim için daha
-          uygun olduğunu gördüm. Yaptığım bir geliştirmenin doğrudan kullanıcıya
-          temas etmesi ve bunun hakkında geri dönüş alabilmek hoşuma gidiyor. Bu
-          doğrultuda hedefimin Frontend alanında uzmanlaşmak olduğunu
-          söyleyebilirim. Frontend dışında UI/UX konularında da kendimi
-          geliştirmeye gayret ediyorum. Kullanıcıya iyi bir görsel ve deneyim
-          sunamadıktan sonra kullanılan teknolojinin veya dilin herhangi bir
-          öneminin olmadığını düşünüyorum.
+          tecrübelerimden sonra yazılım geliştirirken Frontend alanının benim
+          için daha uygun olduğunu gördüm. Yaptığım bir geliştirmenin doğrudan
+          kullanıcıya temas etmesi ve bunun hakkında geri dönüş alabilmek beni
+          mesleki tatmin açısından da memnun ediyor. Bu doğrultuda hedefimin
+          Frontend alanında uzmanlaşmak olduğunu söyleyebilirim. Frontend
+          dışında UI/UX konularında da kendimi geliştirmeye gayret ediyorum.
+          Kullanıcıya iyi bir görsel ve deneyim sunamadıktan sonra kullanılan
+          teknolojinin veya dilin herhangi bir öneminin olmadığını düşünüyorum.
         </p>
         <br />
         <p>
           İş dışındaki vakitlerimde; öğrendiğim farklı şeyleri pekiştirmek hemde
-          kendim kullanabileceğim yan projeler geliştiriyorum{" "}
+          kendim kullanabileceğim yan projeler geliştiriyorum{" ("}
           <Link href="/projelerim">
             Projelerim hakkında detaylara ulaşmak için buraya tıklayabilirsiniz
           </Link>
-          , yazılımla alakalı hazırlanmış video eğitimler izliyorum, blog
+          ), yazılımla alakalı hazırlanmış video eğitimleri izliyorum, blog
           yazıları okuyorum. Yazılım haricindede ingilizcemi geliştirmek için
           çalışıyorum. Translate yardımı olmadan okuduğum bir İngilizce metni
           tam olarak anlayabilmeyi kendime hedef olarak belirledim, umarım
@@ -72,12 +72,17 @@ export default function Page() {
         </p>
         <br />
         <p>
-          Bu websitesini, eğitimlerde veya kendi bireysel denemelerimde aldığım
-          notlarımı insanların kullanımına açmak, kendime dair iş görüşmelerinde
-          paylaşmaya vakit kalmayan bilgileri ve yazdığım yazılarımı
-          paylaşabilmek amacıyla geliştirdim. Ömer Serdar Şerifoğlu hakkında
-          kısa bir özet okudunuz. Buraya kadar okuduysanız çok teşekkür ederim.
-          Eğer bir tavsiyeniz veya sorunuz olursa{" "}
+          Bu web sitesini eğitimlerde veya kendi bireysel denemelerimde aldığım
+          notlarımı insanların kullanımına açmak, yazdığım yazılarımı
+          paylaşabilmek, kendime dair iş görüşmelerinde paylaşmaya vakit
+          kalmayan bilgileri hakkımda daha detaylı bilgiler edinmek isteyen
+          insanların ulaşabilmesi amacıyla geliştirdim.
+        </p>
+        <br />
+        <p>
+          Ömer Serdar Şerifoğlu hakkında kısa bir özet okudunuz. Buraya kadar
+          okuduysanız çok teşekkür ederim. Eğer bir tavsiyeniz veya sorunuz
+          olursa{" "}
           <Link href="mailto:serdarserifoglu@gmail.com">
             serdarserifoglu@gmail.com
           </Link>{" "}
