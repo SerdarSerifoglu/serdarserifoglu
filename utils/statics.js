@@ -14,6 +14,7 @@ export const workExperiences = [
     queue: 2,
     date: "08.2021 - 06.2022",
     jobTitle: "Frontend Developer",
+
     companyName: "NTT DATA Business Solutions Turkey",
     description: `
       <br/>
