@@ -3,6 +3,7 @@ import styles from "./layout.module.css";
 import { Noto_Sans } from "next/font/google";
 import TopBar from "@/components/TopBar/TopBar";
 import SideBar from "@/components/SideBar/SideBar";
+import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalytics";
 
 const notoSans = Noto_Sans({
   subsets: ["latin"],
@@ -16,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-D7ZCWVNC1D" />
       <body className={`${styles.body} ${notoSans.className}`}>
         <div className={styles.topbar}>
           <TopBar />
