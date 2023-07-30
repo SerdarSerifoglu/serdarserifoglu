@@ -1,6 +1,18 @@
 export const workExperiences = [
   {
     queue: 1,
+    date: "04.2023 - Halen",
+    jobTitle: "Senior Frontend Developer",
+    companyName: "NTT DATA Business Solutions Turkey",
+    description: `<br/>
+    80+ kişilik Application Development ekibinde müşterilerin ihtiyaçları doğrultusunda geliştirilen projelerde Frontend Developer olarak görev almaktayım.
+    <br/>
+     <b>Kullandığım dil ve teknolojiler;</b>
+     <br/>
+     ReactJS, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Responsive Design, Figma, Agile, Scrum`,
+  },
+  {
+    queue: 2,
     date: "09.2022 - 12.2022",
     jobTitle: "Frontend Developer",
     companyName: "Akinon",
@@ -11,9 +23,9 @@ export const workExperiences = [
      JavaScript, HTML5, CSS3, Jquery, SASS, Tailwind CSS, Responsive Design, Python, Jinja Template, Figma, Zeplin, Agile, Scrum`,
   },
   {
-    queue: 2,
+    queue: 3,
     date: "08.2021 - 06.2022",
-    jobTitle: "Frontend Developer",
+    jobTitle: "Full Stack Developer",
 
     companyName: "NTT DATA Business Solutions Turkey",
     description: `
@@ -43,7 +55,7 @@ export const workExperiences = [
       `,
   },
   {
-    queue: 3,
+    queue: 4,
     date: "12.2019 - 08.2021",
     companyName: "DOA Bilgi Teknolojileri A.Ş.",
     jobTitle: "Junior Software Developer",
@@ -59,7 +71,7 @@ export const workExperiences = [
       `,
   },
   {
-    queue: 4,
+    queue: 5,
     date: "05.2018 - 12.2019",
     companyName: "ESTEPE Bilgi Teknolojileri",
     jobTitle: "Junior Software Developer",
