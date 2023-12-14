@@ -13,23 +13,24 @@ export default function Page() {
           doğmuşum. Marmara Üniversitesi İstatistik bölümünden 2014 yılında
           mezun oldum. Anadolu Üniversitesi açıköğretim olarak Yönetim Bilişim
           Sistemleri okumaktayım. İstatistik bölümünde okurken Türkiye Basketbol
-          Federasyonunda kursa giderek Basketbol Antrenörlük lisansımı aldım.
-          Okul ile birlikte ve sonrasında toplam 4 yıla yakın bir süre
-          altyapılarda bütün yaş gruplarında çalıştım. Beykozspor, Ortaçeşmespor
-          ve Paşabahçe Ahmet Ferit İnal Lisesi kulüp ve okul takımlarında
-          basketbol antrenörü olarak çalıştım. Bu süreçte yüzlerce çocukla,
-          gençle ve onların aileleriyle çalışma fırsatım oldu, her biri eşsiz
-          deneyimler elde etmemi sağladı. Bu süreçte temasta olduğum herkese
-          minnettarım. Basketbolu çok sevmeme rağmen maddi yetersizlikler
-          sebebiyle devam etmeme kararı aldım.
+          Federasyonu’nun düzenlediği basketbol antrenörlüğü kursuna giderek
+          Basketbol Antrenörü lisansımı aldım. Okul ile birlikte ve sonrasında
+          toplam 4 yıla yakın bir süre altyapılarda bütün yaş gruplarında görev
+          aldım. Beykozspor, Ortaçeşmespor ve Paşabahçe Ahmet Ferit İnal Lisesi
+          kulüp ve okul takımlarında basketbol antrenörü olarak çalıştım. Bu
+          süreçte yüzlerce çocukla, gençle ve onların aileleriyle çalışma
+          fırsatım oldu, her biri eşsiz deneyimler elde etmemi sağladı. Bu
+          süreçte temasta olduğum herkese minnettarım. Basketbolu çok sevmeme
+          rağmen maddi yetersizlikler sebebiyle antrenörlük kariyerime devam
+          etmeme kararı aldım.
         </p>
         <br />
         <p>
           Askerlikten sonra Bahçeşehir Üniversitesi Wissen Akademie’de İŞKUR
           destekli 6 aylık, tam zamanlı bir yazılım eğitimi programına katılma
-          fırsatı buldum. Yazılımla bu eğitimde tanıştım diyebilirim. Birşeyler
+          fırsatı buldum. Yazılımla bu eğitimde tanıştım diyebilirim. Bir şeyler
           üretebilmek için sadece bir bilgisayarın yeterli olması çok hoşuma
-          gitti. Derslerin dışındada kendimi geliştirmeye yeni şeyler öğrenmeye
+          gitti. Derslerin dışındada kendimi geliştirmeye, yeni şeyler öğrenmeye
           devam ettim. Kurstaki harika hocalarıma, beni yazılımla
           tanıştırdıkları ve kurs bittikten sonra dahi, ilk iş tecrübelerimde,
           yapamayacakmışım gibi hissettiğim günlerde bile desteklerini
@@ -37,9 +38,10 @@ export default function Page() {
         </p>
         <br />
         <p>
-          Kurstan mezun olduğum Mart 2018 tarihinden bugüne yazılım sektöründe
-          farklı firmalarda kâh full stack developer, kâh backend developer, kâh
-          frontend developer olarak çalışmaktayım.{" "}
+          Kurstan mezun olduğum Mart 2018 tarihinden bugüne toplam 5.5 yılı
+          aşkın süredir yazılım sektöründe farklı firmalarda kâh full stack
+          developer, kâh backend developer, kâh frontend developer olarak
+          çalışmaktayım.{" "}
           <Link href="/is-deneyimlerim">
             İş deneyimlerimi detaylı olarak görmek isterseniz buraya
             tıklayabilirsiniz.
@@ -47,13 +49,14 @@ export default function Page() {
         </p>
         <br />
         <p>
-          Kariyerime Frontend Developer olarak devam etmek istiyorum. Geçmiş
-          tecrübelerimden sonra yazılım geliştirirken Frontend alanının benim
-          için daha uygun olduğunu gördüm. Yaptığım bir geliştirmenin doğrudan
-          kullanıcıya temas etmesi ve bunun hakkında geri dönüş alabilmek beni
-          mesleki tatmin açısından da memnun ediyor. Bu doğrultuda hedefimin
-          Frontend alanında uzmanlaşmak olduğunu söyleyebilirim. Frontend
-          dışında UI/UX konularında da kendimi geliştirmeye gayret ediyorum.
+          3.5 yıllık Full Stack Developer olarak çalıştıktan sonra benim için
+          frontend alanın daha cazip olduğuna ve bu alanda uzmanlaşmaya karar
+          verdim. Kariyerime şuan Senior Frontend Developer ünvanı ile NTT DATA
+          şirketinde devam ediyorum. Frontend alanına yönelme sebeplerimi kısaca
+          ifade etmem gerekirse, yaptığım bir geliştirmenin doğrudan kullanıcıya
+          temas etmesi ve yaptığım geliştirmeler hakkında geri dönüş alabilmek
+          beni mesleki tatmin açısından da memnun ediyor. Frontend’e paralel
+          olarak UI/UX konularında da kendimi geliştirmeye gayret ediyorum.
           Kullanıcıya iyi bir görsel ve deneyim sunamadıktan sonra kullanılan
           teknolojinin veya dilin herhangi bir öneminin olmadığını düşünüyorum.
         </p>
